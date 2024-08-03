@@ -1,0 +1,84 @@
+/* Custom positioning for top center and bottom center logos */
+.reveal .top-center-logo {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100px; /* Adjust as needed */
+    padding: 5px;
+    z-index: 1000; /* Ensure it is above other content */
+}
+
+.reveal .bottom-center-logo {
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100px; /* Adjust as needed */
+    padding: 5px;
+    z-index: 1000; /* Ensure it is above other content */
+}
+
+/* Center the image */
+.figure-large {
+  width: 80%; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Block-level element */
+  margin: 0 auto; /* Center horizontally */
+  text-align: center; /* Center-align text and inline elements */
+  position: relative; /* Allows positioning of child elements */
+}
+
+/* Style for animated text */
+.animated-text {
+  font-size: 16px;
+  color: black; /* Text color */
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+/* Fade in effect for the animated text */
+.fade-in {
+  opacity: 1;
+}
+
+
+/* Ensure top padding to avoid overlap with background image */
+.reveal .slides > section {
+    padding-top: 80px; /* Adjust this value as needed */
+}
+
+/* Style for titles to ensure they are not obscured */
+.reveal .slides > section h1, 
+.reveal .slides > section h2, 
+.reveal .slides > section h3 {
+    z-index: 1; /* Ensure titles are on top */
+    position: relative; /* Allow z-index to take effect */
+    padding-top: 10px; /* Additional padding if needed */
+}
+
+
+/* Ensure bottom padding to avoid overlap with background image */
+.reveal .slides > section {
+    padding-bottom: 100px; /* Adjust this value as needed */
+}
+
+/* Optional: Add a background to the bottom of the slide if necessary */
+.reveal .slides > section::after {
+    content: "";
+    display: block;
+    height: 100px; /* Adjust this value as needed */
+    background: url('images/bottom-background.png') no-repeat bottom center; /* Update with your image path */
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1; /* Ensure it is behind content */
+}
+
+/* Style for the figure container to center the image */
+.figure-container {
+  text-align: center; /* Center-aligns the content within the div */
+  margin: 0 auto; /* Centers the div itself */
+}

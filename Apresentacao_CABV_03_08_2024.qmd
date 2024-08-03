@@ -1,0 +1,112 @@
+---
+title: "Ampliação do Sistema de Captação de Água do CABV"
+author: "Cássio Rampinelli & Magno Costa"
+date: "`r Sys.Date()`"  # This will automatically insert today's date
+format: 
+  revealjs:
+    css: custom.css
+    footer: |
+      <img src="logo-left.png" class="top-center-logo" alt="Logo Top Center">
+      <img src="logo-right.png" class="bottom-center-logo" alt="Logo Bottom Center">
+editor: visual
+---
+
+## Planejamento
+
+
+  ![](images/Figura1.png){.figure-large}
+  
+<div class="animated-text" id="fade-text">This is an animated sentence!</div>
+
+---
+
+## Produto 1
+
+- Base Topográfica
+- Configuração Geral do Sistema
+- Dados Imprecisos e Pendentes
+- Resultados Parciais e Pendências
+- Ponto de Operação das Bombas (Calculado)
+- Limitação dos Resultados e Problemas de Calibração
+- Possibilidades de Aumento de Produção do Sistema Atual
+
+---
+
+### Base Topográfica
+
+- O levantamento topográfico novo não cobriu toda a área do    estudo;
+- A base topográfica antiga não está georreferenciada         adequadamente;
+- Perfil topográfico base nova x base antiga x ANADEM;
+- **Solução:** *Mantivemos as curvas de nível da base antiga e a     deslocamos aproximadamente para a área de interesse.*
+
+---
+
+### Base Topográfica
+
+
+  ![](images/Figura2.png){.figure-large}
+
+
+---
+
+### Configuração Geral do Sistema
+
+  ![](images/Figura3.png){.figure-large}
+---
+
+### Configuração Geral do Sistema
+
+
+  ![](images/Figura4.png){.figure-large}
+
+
+---
+
+
+### Modelo EPANET
+
+ ![](images/Figura5.png){.figure-large}
+
+---
+
+### Curva da Bomba no P-06
+
+![](images/Figura6.png){.figure-large}
+
+---
+
+### Imprecisão e Estimativa de Dados
+
+![](images/Figura7.png){.figure-large}
+
+---
+
+### Cálculo das Vazões no Sistema
+
+![](images/Figura8.png){.figure-large}
+
+---
+
+### Cálculo da Perda de Carga no Sistema
+
+![](images/Figura9.png){.figure-large}
+
+---
+
+## Informações Pendentes
+
+![](images/Figura10.png){.figure-large}
+
+---
+
+## Ponto de Operação das Bombas
+
+![](images/Figura11.png){.figure-large}
+
+---
+
+## Ponto de Operação das Bombas
+
+![](images/Figura12.png){.figure-large}
+
+---
